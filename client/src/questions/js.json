@@ -1,0 +1,134 @@
+[
+  {
+    "id": 1,
+    "niveau": "Débutant",
+    "questions": [
+      {
+        "question": "Quelle est la bonne façon de déclarer une variable en JavaScript ?",
+        "options": ["var x = 5;", "variable x = 5;", "int x = 5;", "x := 5;"],
+        "indice": "En JavaScript, on utilise 'var', 'let' ou 'const' pour déclarer une variable.",
+        "reponse": "var x = 5;"
+      },
+      {
+        "question": "Comment affiche-t-on un message dans la console en JavaScript ?",
+        "options": ["console.log('Bonjour');", "print('Bonjour');", "echo('Bonjour');", "write('Bonjour');"],
+        "indice": "La méthode utilisée commence par 'console'.",
+        "reponse": "console.log('Bonjour');"
+      },
+      {
+        "question": "Quel symbole est utilisé pour les commentaires sur une seule ligne en JavaScript ?",
+        "options": ["//", "/*", "#", "<!--"],
+        "indice": "C'est le même que dans de nombreux langages C-like.",
+        "reponse": "//"
+      },
+      {
+        "question": "Quelle est la sortie de: console.log(2 + '2');",
+        "options": ["4", "22", "NaN", "Erreur"],
+        "indice": "JavaScript convertit les nombres en chaînes lorsqu'on les additionne à une chaîne.",
+        "reponse": "22"
+      },
+      {
+        "question": "Comment écrit-on une fonction en JavaScript ?",
+        "options": ["function maFonction() {}", "def maFonction() {}", "fonction maFonction() {}", "func maFonction() {}"],
+        "indice": "Le mot-clé commence par 'function'.",
+        "reponse": "function maFonction() {}"
+      },
+      {
+        "question": "Quelle méthode est utilisée pour afficher une boîte de dialogue avec un message ?",
+        "options": ["alert()", "prompt()", "confirm()", "message()"],
+        "indice": "Cette méthode affiche simplement un message.",
+        "reponse": "alert()"
+      },
+      {
+        "question": "Quelle est la bonne façon de vérifier si x est égal à 5 ?",
+        "options": ["x == 5", "x = 5", "x === 5", "x != 5"],
+        "indice": "Utilisez '==' ou '===' pour comparer.",
+        "reponse": "x == 5"
+      },
+      {
+        "question": "Comment appelle-t-on une liste de valeurs en JavaScript ?",
+        "options": ["Array", "Object", "Set", "Map"],
+        "indice": "C'est une structure de données utilisée pour stocker plusieurs valeurs.",
+        "reponse": "Array"
+      },
+      {
+        "question": "Quelle est la sortie de: typeof 'Bonjour';",
+        "options": ["string", "text", "char", "str"],
+        "indice": "Le type d'une chaîne de caractères est 'string'.",
+        "reponse": "string"
+      },
+      {
+        "question": "Comment appelle-t-on une erreur dans le code JavaScript ?",
+        "options": ["Bug", "Glitch", "Exception", "Erreur"],
+        "indice": "C'est un terme général pour un problème dans le code.",
+        "reponse": "Bug"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "niveau": "Intermédiaire",
+    "questions": [
+      {
+        "question": "Quelle méthode est utilisée pour ajouter un élément à la fin d'un tableau ?",
+        "options": ["push()", "add()", "append()", "insert()"],
+        "indice": "Cette méthode 'pousse' un élément à la fin.",
+        "reponse": "push()"
+      },
+      {
+        "question": "Quelle est la sortie de: Boolean(0);",
+        "options": ["true", "false", "0", "undefined"],
+        "indice": "En JavaScript, 0 est considéré comme faux.",
+        "reponse": "false"
+      },
+      {
+        "question": "Comment peut-on écrire une condition 'si' en JavaScript ?",
+        "options": ["if (condition) {}", "si (condition) {}", "when (condition) {}", "cond (condition) {}"],
+        "indice": "Le mot-clé est 'if'.",
+        "reponse": "if (condition) {}"
+      },
+      {
+        "question": "Quelle méthode est utilisée pour convertir une chaîne en majuscules ?",
+        "options": ["toUpperCase()", "upperCase()", "toCaps()", "makeUpper()"],
+        "indice": "La méthode commence par 'toUpper'.",
+        "reponse": "toUpperCase()"
+      },
+      {
+        "question": "Quelle boucle est utilisée pour répéter une action un certain nombre de fois ?",
+        "options": ["for", "repeat", "loop", "while"],
+        "indice": "Cette boucle utilise un compteur.",
+        "reponse": "for"
+      },
+      {
+        "question": "Quelle est la sortie de: '5' * 2;",
+        "options": ["10", "52", "NaN", "Erreur"],
+        "indice": "JavaScript convertit la chaîne en nombre pour la multiplication.",
+        "reponse": "10"
+      },
+      {
+        "question": "Comment peut-on vérifier si une variable est de type nombre ?",
+        "options": ["typeof x === 'number'", "x.type == 'number'", "isNumber(x)", "x instanceof Number"],
+        "indice": "Utilisez 'typeof' pour obtenir le type.",
+        "reponse": "typeof x === 'number'"
+      },
+      {
+        "question": "Quelle méthode est utilisée pour supprimer le dernier élément d'un tableau ?",
+        "options": ["pop()", "remove()", "delete()", "shift()"],
+        "indice": "Cette méthode 'fait sauter' le dernier élément.",
+        "reponse": "pop()"
+      },
+      {
+        "question": "Quelle est la sortie de: null == undefined;",
+        "options": ["true", "false", "null", "undefined"],
+        "indice": "En JavaScript, null et undefined sont égaux en valeur mais pas en type.",
+        "reponse": "true"
+      },
+      {
+        "question": "Comment peut-on convertir une chaîne en nombre entier ?",
+        "options": ["parseInt()", "toInteger()", "Number.parse()", "convertToInt()"],
+        "indice": "Utilisez 'parseInt' pour analyser une chaîne en entier.",
+        "reponse": "parseInt()"
+      }
+    ]
+  }
+]
