@@ -7,7 +7,12 @@
         {
           "id": 1,
           "question": "Qu'est-ce que React ?",
-          "options": ["Une bibliothèque JavaScript", "Un langage de programmation", "Un système d'exploitation", "Un navigateur web"],
+          "options": [
+            "Une bibliothèque JavaScript",
+            "Un langage de programmation",
+            "Un système d'exploitation",
+            "Un navigateur web"
+          ],
           "indice": "C'est une bibliothèque utilisée pour construire des interfaces utilisateur.",
           "reponse": "Une bibliothèque JavaScript"
         },
@@ -35,7 +40,12 @@
         {
           "id": 5,
           "question": "Quelle méthode est utilisée pour afficher un composant React dans le DOM ?",
-          "options": ["ReactDOM.render()", "React.render()", "renderComponent()", "display()"],
+          "options": [
+            "ReactDOM.render()",
+            "React.render()",
+            "renderComponent()",
+            "display()"
+          ],
           "indice": "Elle appartient à ReactDOM.",
           "reponse": "ReactDOM.render()"
         },
@@ -56,14 +66,24 @@
         {
           "id": 8,
           "question": "Quel est le nom de l'outil de développement pour inspecter les composants React dans le navigateur ?",
-          "options": ["React Developer Tools", "React Inspector", "React Analyzer", "React Debugger"],
+          "options": [
+            "React Developer Tools",
+            "React Inspector",
+            "React Analyzer",
+            "React Debugger"
+          ],
           "indice": "C'est une extension pour les navigateurs.",
           "reponse": "React Developer Tools"
         },
         {
           "id": 9,
           "question": "Quel est le nom de la fonction utilisée pour créer un nouveau projet React ?",
-          "options": ["create-react-app", "init-react", "react-new", "start-react"],
+          "options": [
+            "create-react-app",
+            "init-react",
+            "react-new",
+            "start-react"
+          ],
           "indice": "C'est une commande CLI populaire.",
           "reponse": "create-react-app"
         },
@@ -90,7 +110,12 @@
         {
           "id": 12,
           "question": "Quel est le nom du système de routage populaire utilisé avec React ?",
-          "options": ["React Router", "React Navigation", "React Path", "React Routes"],
+          "options": [
+            "React Router",
+            "React Navigation",
+            "React Path",
+            "React Routes"
+          ],
           "indice": "Il permet de gérer les routes dans une application React.",
           "reponse": "React Router"
         },
@@ -104,14 +129,24 @@
         {
           "id": 14,
           "question": "Quel est le nom de la méthode utilisée pour mettre à jour l'état dans un composant de classe ?",
-          "options": ["this.setState()", "this.updateState()", "this.changeState()", "this.modifyState()"],
+          "options": [
+            "this.setState()",
+            "this.updateState()",
+            "this.changeState()",
+            "this.modifyState()"
+          ],
           "indice": "Elle commence par 'this.set'.",
           "reponse": "this.setState()"
         },
         {
           "id": 15,
           "question": "Quel est le nom de la méthode du cycle de vie appelée après le montage d'un composant de classe ?",
-          "options": ["componentDidMount", "componentWillMount", "componentDidUpdate", "componentWillUpdate"],
+          "options": [
+            "componentDidMount",
+            "componentWillMount",
+            "componentDidUpdate",
+            "componentWillUpdate"
+          ],
           "indice": "Elle est appelée juste après le montage.",
           "reponse": "componentDidMount"
         },
@@ -125,7 +160,12 @@
         {
           "id": 17,
           "question": "Quel est le nom de la méthode utilisée pour créer un contexte en React ?",
-          "options": ["React.createContext()", "React.newContext()", "React.initContext()", "React.buildContext()"],
+          "options": [
+            "React.createContext()",
+            "React.newContext()",
+            "React.initContext()",
+            "React.buildContext()"
+          ],
           "indice": "Elle commence par 'React.create'.",
           "reponse": "React.createContext()"
         },

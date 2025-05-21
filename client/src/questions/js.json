@@ -11,7 +11,12 @@
       },
       {
         "question": "Comment affiche-t-on un message dans la console en JavaScript ?",
-        "options": ["console.log('Bonjour');", "print('Bonjour');", "echo('Bonjour');", "write('Bonjour');"],
+        "options": [
+          "console.log('Bonjour');",
+          "print('Bonjour');",
+          "echo('Bonjour');",
+          "write('Bonjour');"
+        ],
         "indice": "La méthode utilisée commence par 'console'.",
         "reponse": "console.log('Bonjour');"
       },
@@ -29,7 +34,12 @@
       },
       {
         "question": "Comment écrit-on une fonction en JavaScript ?",
-        "options": ["function maFonction() {}", "def maFonction() {}", "fonction maFonction() {}", "func maFonction() {}"],
+        "options": [
+          "function maFonction() {}",
+          "def maFonction() {}",
+          "fonction maFonction() {}",
+          "func maFonction() {}"
+        ],
         "indice": "Le mot-clé commence par 'function'.",
         "reponse": "function maFonction() {}"
       },
@@ -83,7 +93,12 @@
       },
       {
         "question": "Comment peut-on écrire une condition 'si' en JavaScript ?",
-        "options": ["if (condition) {}", "si (condition) {}", "when (condition) {}", "cond (condition) {}"],
+        "options": [
+          "if (condition) {}",
+          "si (condition) {}",
+          "when (condition) {}",
+          "cond (condition) {}"
+        ],
         "indice": "Le mot-clé est 'if'.",
         "reponse": "if (condition) {}"
       },
@@ -107,7 +122,12 @@
       },
       {
         "question": "Comment peut-on vérifier si une variable est de type nombre ?",
-        "options": ["typeof x === 'number'", "x.type == 'number'", "isNumber(x)", "x instanceof Number"],
+        "options": [
+          "typeof x === 'number'",
+          "x.type == 'number'",
+          "isNumber(x)",
+          "x instanceof Number"
+        ],
         "indice": "Utilisez 'typeof' pour obtenir le type.",
         "reponse": "typeof x === 'number'"
       },
@@ -125,7 +145,12 @@
       },
       {
         "question": "Comment peut-on convertir une chaîne en nombre entier ?",
-        "options": ["parseInt()", "toInteger()", "Number.parse()", "convertToInt()"],
+        "options": [
+          "parseInt()",
+          "toInteger()",
+          "Number.parse()",
+          "convertToInt()"
+        ],
         "indice": "Utilisez 'parseInt' pour analyser une chaîne en entier.",
         "reponse": "parseInt()"
       }

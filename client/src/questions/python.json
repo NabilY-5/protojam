@@ -1,134 +1,139 @@
 [
-    {
-      "id": 1,
-      "niveau": "Débutant",
-      "questions": [
-        {
-          "question": "Quel mot-clé est utilisé pour afficher un message à l'écran en Python ?",
-          "options": ["print", "echo", "display", "show"],
-          "indice": "Ce mot commence par 'p' et est utilisé pour afficher du texte.",
-          "reponse": "print"
-        },
-        {
-          "question": "Comment commence-t-on un commentaire sur une seule ligne en Python ?",
-          "options": ["//", "#", "/*", "--"],
-          "indice": "C'est un symbole dièse.",
-          "reponse": "#"
-        },
-        {
-          "question": "Quel est le bon type de données pour stocker le nombre 10 en Python ?",
-          "options": ["int", "str", "float", "bool"],
-          "indice": "C'est le type pour les nombres entiers.",
-          "reponse": "int"
-        },
-        {
-          "question": "Quelle est la bonne façon de créer une liste vide en Python ?",
-          "options": ["[]", "{}", "()", "<>"],
-          "indice": "Utilisez des crochets.",
-          "reponse": "[]"
-        },
-        {
-          "question": "Comment déclare-t-on une fonction en Python ?",
-          "options": ["def ma_fonction():", "function ma_fonction():", "func ma_fonction():", "declare ma_fonction():"],
-          "indice": "Le mot-clé commence par 'def'.",
-          "reponse": "def ma_fonction():"
-        },
-        {
-          "question": "Quel mot-clé est utilisé pour répéter une action tant qu'une condition est vraie ?",
-          "options": ["while", "for", "repeat", "loop"],
-          "indice": "Ce mot signifie 'tant que' en anglais.",
-          "reponse": "while"
-        },
-        {
-          "question": "Quelle est la bonne façon de vérifier si deux valeurs sont égales en Python ?",
-          "options": ["==", "=", "===", "!="],
-          "indice": "C'est une double égalité.",
-          "reponse": "=="
-        },
-        {
-          "question": "Quel est le résultat de len(\"Python\") ?",
-          "options": ["5", "6", "7", "Erreur"],
-          "indice": "Comptez le nombre de lettres.",
-          "reponse": "6"
-        },
-        {
-          "question": "Quel symbole est utilisé pour l'opérateur 'et' logique en Python ?",
-          "options": ["and", "&", "&&", "et"],
-          "indice": "C'est un mot-clé en anglais.",
-          "reponse": "and"
-        },
-        {
-          "question": "Comment appelle-t-on une erreur dans le code Python ?",
-          "options": ["bug", "glitch", "exception", "erreur"],
-          "indice": "C'est un terme général pour un problème dans le code.",
-          "reponse": "bug"
-        }
-      ]
-    },
-    {
-      "id": 2,
-      "niveau": "Intermédiaire",
-      "questions": [
-        {
-          "question": "Quelle méthode est utilisée pour ajouter un élément à la fin d'une liste ?",
-          "options": ["append()", "add()", "insert()", "push()"],
-          "indice": "Cette méthode 'ajoute' un élément à la fin.",
-          "reponse": "append()"
-        },
-        {
-          "question": "Quelle est la sortie de type(3.14) ?",
-          "options": ["int", "float", "str", "bool"],
-          "indice": "3.14 est un nombre à virgule.",
-          "reponse": "float"
-        },
-        {
-          "question": "Comment peut-on vérifier si une valeur est présente dans une liste ?",
-          "options": ["in", "has", "contains", "exists"],
-          "indice": "C'est un mot-clé en anglais signifiant 'dans'.",
-          "reponse": "in"
-        },
-        {
-          "question": "Quelle est la sortie de bool(0) ?",
-          "options": ["True", "False", "0", "Erreur"],
-          "indice": "En Python, 0 est considéré comme faux.",
-          "reponse": "False"
-        },
-        {
-          "question": "Quelle méthode est utilisée pour convertir une chaîne en minuscules ?",
-          "options": ["lower()", "downcase()", "toLower()", "minuscule()"],
-          "indice": "Cette méthode 'abaisse' les lettres.",
-          "reponse": "lower()"
-        },
-        {
-          "question": "Quelle est la sortie de 5 // 2 ?",
-          "options": ["2.5", "2", "3", "Erreur"],
-          "indice": "C'est une division entière.",
-          "reponse": "2"
-        },
-        {
-          "question": "Quelle structure de données est utilisée pour stocker des paires clé-valeur ?",
-          "options": ["dictionnaire", "liste", "tuple", "ensemble"],
-          "indice": "C'est comme un vrai dictionnaire.",
-          "reponse": "dictionnaire"
-        },
-        {
-          "question": "Comment appelle-t-on une fonction qui s'appelle elle-même ?",
-          "options": ["récursive", "répétitive", "auto-fonction", "boucle"],
-          "indice": "Elle se 'répète' en s'appelant.",
-          "reponse": "récursive"
-        },
-        {
-          "question": "Quelle est la sortie de len([1, 2, [3, 4]]) ?",
-          "options": ["2", "3", "4", "Erreur"],
-          "indice": "La liste contient trois éléments, dont une sous-liste.",
-          "reponse": "3"
-        },
-        {
-          "question": "Quelle est la bonne façon d'importer le module math en Python ?",
-          "options": ["import math", "include math", "require math", "use math"],
-          "indice": "Le mot-clé est 'import'.",
-          "reponse": "import math"
-        }
-      ]
-    }
-  ]
+  {
+    "id": 1,
+    "niveau": "Débutant",
+    "questions": [
+      {
+        "question": "Quel mot-clé est utilisé pour afficher un message à l'écran en Python ?",
+        "options": ["print", "echo", "display", "show"],
+        "indice": "Ce mot commence par 'p' et est utilisé pour afficher du texte.",
+        "reponse": "print"
+      },
+      {
+        "question": "Comment commence-t-on un commentaire sur une seule ligne en Python ?",
+        "options": ["//", "#", "/*", "--"],
+        "indice": "C'est un symbole dièse.",
+        "reponse": "#"
+      },
+      {
+        "question": "Quel est le bon type de données pour stocker le nombre 10 en Python ?",
+        "options": ["int", "str", "float", "bool"],
+        "indice": "C'est le type pour les nombres entiers.",
+        "reponse": "int"
+      },
+      {
+        "question": "Quelle est la bonne façon de créer une liste vide en Python ?",
+        "options": ["[]", "{}", "()", "<>"],
+        "indice": "Utilisez des crochets.",
+        "reponse": "[]"
+      },
+      {
+        "question": "Comment déclare-t-on une fonction en Python ?",
+        "options": [
+          "def ma_fonction():",
+          "function ma_fonction():",
+          "func ma_fonction():",
+          "declare ma_fonction():"
+        ],
+        "indice": "Le mot-clé commence par 'def'.",
+        "reponse": "def ma_fonction():"
+      },
+      {
+        "question": "Quel mot-clé est utilisé pour répéter une action tant qu'une condition est vraie ?",
+        "options": ["while", "for", "repeat", "loop"],
+        "indice": "Ce mot signifie 'tant que' en anglais.",
+        "reponse": "while"
+      },
+      {
+        "question": "Quelle est la bonne façon de vérifier si deux valeurs sont égales en Python ?",
+        "options": ["==", "=", "===", "!="],
+        "indice": "C'est une double égalité.",
+        "reponse": "=="
+      },
+      {
+        "question": "Quel est le résultat de len(\"Python\") ?",
+        "options": ["5", "6", "7", "Erreur"],
+        "indice": "Comptez le nombre de lettres.",
+        "reponse": "6"
+      },
+      {
+        "question": "Quel symbole est utilisé pour l'opérateur 'et' logique en Python ?",
+        "options": ["and", "&", "&&", "et"],
+        "indice": "C'est un mot-clé en anglais.",
+        "reponse": "and"
+      },
+      {
+        "question": "Comment appelle-t-on une erreur dans le code Python ?",
+        "options": ["bug", "glitch", "exception", "erreur"],
+        "indice": "C'est un terme général pour un problème dans le code.",
+        "reponse": "bug"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "niveau": "Intermédiaire",
+    "questions": [
+      {
+        "question": "Quelle méthode est utilisée pour ajouter un élément à la fin d'une liste ?",
+        "options": ["append()", "add()", "insert()", "push()"],
+        "indice": "Cette méthode 'ajoute' un élément à la fin.",
+        "reponse": "append()"
+      },
+      {
+        "question": "Quelle est la sortie de type(3.14) ?",
+        "options": ["int", "float", "str", "bool"],
+        "indice": "3.14 est un nombre à virgule.",
+        "reponse": "float"
+      },
+      {
+        "question": "Comment peut-on vérifier si une valeur est présente dans une liste ?",
+        "options": ["in", "has", "contains", "exists"],
+        "indice": "C'est un mot-clé en anglais signifiant 'dans'.",
+        "reponse": "in"
+      },
+      {
+        "question": "Quelle est la sortie de bool(0) ?",
+        "options": ["True", "False", "0", "Erreur"],
+        "indice": "En Python, 0 est considéré comme faux.",
+        "reponse": "False"
+      },
+      {
+        "question": "Quelle méthode est utilisée pour convertir une chaîne en minuscules ?",
+        "options": ["lower()", "downcase()", "toLower()", "minuscule()"],
+        "indice": "Cette méthode 'abaisse' les lettres.",
+        "reponse": "lower()"
+      },
+      {
+        "question": "Quelle est la sortie de 5 // 2 ?",
+        "options": ["2.5", "2", "3", "Erreur"],
+        "indice": "C'est une division entière.",
+        "reponse": "2"
+      },
+      {
+        "question": "Quelle structure de données est utilisée pour stocker des paires clé-valeur ?",
+        "options": ["dictionnaire", "liste", "tuple", "ensemble"],
+        "indice": "C'est comme un vrai dictionnaire.",
+        "reponse": "dictionnaire"
+      },
+      {
+        "question": "Comment appelle-t-on une fonction qui s'appelle elle-même ?",
+        "options": ["récursive", "répétitive", "auto-fonction", "boucle"],
+        "indice": "Elle se 'répète' en s'appelant.",
+        "reponse": "récursive"
+      },
+      {
+        "question": "Quelle est la sortie de len([1, 2, [3, 4]]) ?",
+        "options": ["2", "3", "4", "Erreur"],
+        "indice": "La liste contient trois éléments, dont une sous-liste.",
+        "reponse": "3"
+      },
+      {
+        "question": "Quelle est la bonne façon d'importer le module math en Python ?",
+        "options": ["import math", "include math", "require math", "use math"],
+        "indice": "Le mot-clé est 'import'.",
+        "reponse": "import math"
+      }
+    ]
+  }
+]
