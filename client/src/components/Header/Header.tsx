@@ -11,7 +11,7 @@ const Header = () => {
         <NavLink to="/Html">HTML/CSS</NavLink>
         <NavLink to="">Javascript</NavLink>
         <NavLink to="/Python">Python</NavLink>
-        <NavLink to="">React</NavLink>
+        <NavLink to="/React">React</NavLink>
       </nav>
     </header>
   );
