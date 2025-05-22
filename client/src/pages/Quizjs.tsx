@@ -57,7 +57,7 @@ const JsQuiz = () => {
       setScore(score + 1);
       setMessage(" Bonne réponse !");
     } else {
-      setMessage(`Mauvaise réponse. Indice : ${question.indice}`);
+      setMessage(`Mauvaise réponse. Solution : ${question.indice}`);
     }
 
     if (currentQuestion + 1 === jsQuestions[niveau].questions.length) {

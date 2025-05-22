@@ -55,7 +55,11 @@ li {
   }
 }
 
-@media screen and (max-width: 750px) {
+@media screen and (max-width: 768px) {
+  li {
+    width: 100%;
+    text-align: center;
+  }
   .mentions-légales {
     display: none;
   }
