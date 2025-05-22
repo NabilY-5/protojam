@@ -8,11 +8,11 @@ footer ul {
   text-align: center;
   justify-items: center;
   list-style: none;
-  color: white;
+  color: #5c3d2e;
+  font-weight: bold;
   font-size: 0.4rem;
   padding: 0px;
   margin: 0;
-  /* height: 100%; */
 }
 
 h3 {
@@ -48,7 +48,8 @@ li {
   a {
     margin: 16px;
     padding: 8px;
-    color: white;
+    color: #5c3d2e;
+    font-weight: bold;
     font-size: 1rem;
     text-decoration: underline;
   }

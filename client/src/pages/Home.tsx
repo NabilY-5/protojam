@@ -1,3 +1,4 @@
+import { Link } from "react-router";
 import "../styles/home.css";
 
 const Home = () => {
@@ -24,10 +25,18 @@ const Home = () => {
       </p>
 
       <div className="quiz-topics">
-        <div className="quiz-thematique">HTML et CSS</div>
-        <div className="quiz-thematique">Python</div>
-        <div className="quiz-thematique">JavaScript</div>
-        <div className="quiz-thematique">React</div>
+        <Link to="/" className="quiz-thematique">
+          HTML et CSS
+        </Link>
+        <Link to="/Python" className="quiz-thematique">
+          Python
+        </Link>
+        <Link to="/" className="quiz-thematique">
+          JavaScript
+        </Link>
+        <Link to="/" className="quiz-thematique">
+          React
+        </Link>
       </div>
     </div>
   );
