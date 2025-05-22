@@ -9,6 +9,7 @@ import { RouterProvider, createBrowserRouter } from "react-router";
 import App from "./App";
 import Home from "./pages/Home";
 import Python from "./pages/Python";
+import Quizjs from "./pages/Quizjs";
 
 // Import additional components for new routes
 // Try creating these components in the "pages" folder
@@ -26,6 +27,7 @@ const router = createBrowserRouter([
     children: [
       { path: "/", element: <Home /> },
       { path: "/Python", element: <Python /> },
+      { path: "/JS", element: <Quizjs /> },
     ],
   },
 ]);
