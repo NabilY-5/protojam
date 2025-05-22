@@ -1,5 +1,5 @@
 import { useEffect } from "react";
-import { useNavigate } from "react-router-dom";
+import { useNavigate } from "react-router";
 import "../styles/erreur404.css";
 import erreurImage from "../assets/images/erreurcastor.png";
 
@@ -17,8 +17,8 @@ function Page() {
   return (
     <div className="error">
       <img src={erreurImage} alt="Page 404 - Perdu dans la forêt féerique" />
-      <h1>Oups, tu t'es perdu...</h1>
-      <p>Je vais te faire réapparaître à l'accueil dans 5 secondes.</p>
+      <h1>Oups, tu t'es égaré...</h1>
+      <p>Je vais te montrer le chemin de la maison...</p>
     </div>
   );
 }
