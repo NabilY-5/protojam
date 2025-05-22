@@ -1,4 +1,4 @@
-import { NavLink, Link } from "react-router";
+import { Link, NavLink } from "react-router";
 import "./Header.css";
 
 const Header = () => {
