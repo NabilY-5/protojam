@@ -9,7 +9,7 @@ const Header = () => {
       </Link>
       <nav>
         <NavLink to="">HTML/CSS</NavLink>
-        <NavLink to="">Javascript</NavLink>
+        <NavLink to="/JS">Javascript</NavLink>
         <NavLink to="/Python">Python</NavLink>
         <NavLink to="/React">React</NavLink>
       </nav>

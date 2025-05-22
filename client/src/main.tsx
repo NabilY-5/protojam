@@ -9,6 +9,7 @@ import { RouterProvider, createBrowserRouter } from "react-router";
 import App from "./App";
 import Home from "./pages/Home";
 import Python from "./pages/Python";
+import Quizjs from "./pages/Quizjs";
 import ReactQuiz from "./pages/React";
 
 // Import additional components for new routes
@@ -27,6 +28,7 @@ const router = createBrowserRouter([
     children: [
       { path: "/", element: <Home /> },
       { path: "/Python", element: <Python /> },
+      { path: "/JS", element: <Quizjs /> },
       { path: "/React", element: <ReactQuiz /> },
     ],
   },

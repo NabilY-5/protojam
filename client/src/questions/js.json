@@ -5,8 +5,9 @@
     "questions": [
       {
         "question": "Quelle est la bonne façon de déclarer une variable en JavaScript ?",
+        "story": "",
         "options": ["var x = 5;", "variable x = 5;", "int x = 5;", "x := 5;"],
-        "indice": "En JavaScript, on utilise 'var', 'let' ou 'const' pour déclarer une variable.",
+        "indice": "Un beau matin, le sage Père Castor l’appela : « Dis-moi, Petit Script, comment déclares-tu une variable magique ? » Petit Script répondit : « On utilise 'var', 'let' ou 'const'. Par exemple : var x = 5; »",
         "reponse": "var x = 5;"
       },
       {
@@ -17,19 +18,19 @@
           "echo('Bonjour');",
           "write('Bonjour');"
         ],
-        "indice": "La méthode utilisée commence par 'console'.",
+        "indice": "Le vieux sage continua : « Et comment écris-tu un message pour parler à la console des esprits ? » « Avec : console.log('Bonjour');, car la console est leur voix. »",
         "reponse": "console.log('Bonjour');"
       },
       {
         "question": "Quel symbole est utilisé pour les commentaires sur une seule ligne en JavaScript ?",
         "options": ["//", "/*", "#", "<!--"],
-        "indice": "C'est le même que dans de nombreux langages C-like.",
+        "indice": " Le Père Castor sourit et demanda : « Quel symbole utilises-tu pour écrire un secret qui ne sera pas lu par la magie ? » « C’est //, comme dans beaucoup d’autres langages. »",
         "reponse": "//"
       },
       {
         "question": "Quelle est la sortie de: console.log(2 + '2');",
         "options": ["4", "22", "NaN", "Erreur"],
-        "indice": "JavaScript convertit les nombres en chaînes lorsqu'on les additionne à une chaîne.",
+        "indice": "Puis le sage posa une énigme : « Que donnera l’expression 2 + '2' ? » Petit Script sourit : « Ce sera '22', car le nombre devient une chaîne et elles s’assemblent.",
         "reponse": "22"
       },
       {
@@ -40,37 +41,37 @@
           "fonction maFonction() {}",
           "func maFonction() {}"
         ],
-        "indice": "Le mot-clé commence par 'function'.",
+        "indice": "Pour écrire une formule magique, il fallait savoir :« Comment crée-t-on une fonction ? » « On commence par : function maFonction() {} » répondit le jeune.",
         "reponse": "function maFonction() {}"
       },
       {
         "question": "Quelle méthode est utilisée pour afficher une boîte de dialogue avec un message ?",
         "options": ["alert()", "prompt()", "confirm()", "message()"],
-        "indice": "Cette méthode affiche simplement un message.",
+        "indice": "Le Père Castor demanda alors : « Quelle méthode fait apparaître une boîte avec un message ? » « alert() ! Elle montre simplement un message à l’écran. »",
         "reponse": "alert()"
       },
       {
         "question": "Quelle est la bonne façon de vérifier si x est égal à 5 ?",
         "options": ["x == 5", "x = 5", "x === 5", "x != 5"],
-        "indice": "Utilisez '==' ou '===' pour comparer.",
+        "indice": "« Comment vérifier si x est égal à 5 ? » poursuivit le sage. « En écrivant : x == 5. »",
         "reponse": "x == 5"
       },
       {
         "question": "Comment appelle-t-on une liste de valeurs en JavaScript ?",
         "options": ["Array", "Object", "Set", "Map"],
-        "indice": "C'est une structure de données utilisée pour stocker plusieurs valeurs.",
+        "indice": "Le vieux Castor montra une boîte magique : « Comment nommes-tu une liste de valeurs en JavaScript ? » « C’est un Array ! »",
         "reponse": "Array"
       },
       {
         "question": "Quelle est la sortie de: typeof 'Bonjour';",
         "options": ["string", "text", "char", "str"],
-        "indice": "Le type d'une chaîne de caractères est 'string'.",
+        "indice": "« Que donne typeof 'Bonjour' ? » demanda-t-il. « Le type est string, une chaîne de caractères. »",
         "reponse": "string"
       },
       {
         "question": "Comment appelle-t-on une erreur dans le code JavaScript ?",
         "options": ["Bug", "Glitch", "Exception", "Erreur"],
-        "indice": "C'est un terme général pour un problème dans le code.",
+        "indice": "Enfin, Père Castor demanda : « Comment nommes-tu un problème dans ton code ? » « Un Bug, comme une petite bête qui dérange la magie. » Le jeune Petit Script avait franchi une nouvelle étape dans son apprentissage.",
         "reponse": "Bug"
       }
     ]
