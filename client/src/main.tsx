@@ -31,7 +31,7 @@ const router = createBrowserRouter([
       { path: "/", element: <Home /> },
       { path: "/Html", element: <Html /> },
       { path: "/Python", element: <Python /> },
-      { path: "/JS", element: <Quizjs /> },
+      { path: "/Javascript", element: <Quizjs /> },
       { path: "/React", element: <ReactQuiz /> },
       { path: "*", element: <Error404 /> },
     ],

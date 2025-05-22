@@ -67,7 +67,7 @@ Ainsi, grâce à ces mages et à leur savoir ancien, le royaume React prospérai
       setScore(score + 1);
       setMessage(" Bonne réponse !");
     } else {
-      setMessage(`Mauvaise réponse. Indice : ${question.indice}`);
+      setMessage(`Mauvaise réponse. Solution : ${question.indice}`);
     }
 
     if (currentQuestion + 1 === reactQuestions[niveau].questions.length) {

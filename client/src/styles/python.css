@@ -9,6 +9,10 @@
   gap: 30px;
 }
 
+.quiz p {
+  font-size: 1.2rem;
+}
+
 h2 {
   font-size: 1.2rem;
 }
