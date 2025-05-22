@@ -1,0 +1,164 @@
+[
+  {
+    "id": 1,
+    "niveau": "Débutant",
+    "questions": [
+      {
+        "question": "Quelle balise HTML est utilisée pour créer un lien hypertexte ?",
+        "options": ["<a>", "<link>", "<href>", "<url>"],
+        "indice": "Cette balise est utilisée pour définir des ancres ou des liens.",
+        "reponse": "<a>"
+      },
+      {
+        "question": "Quelle propriété CSS est utilisée pour changer la couleur du texte ?",
+        "options": ["color", "text-color", "font-color", "background-color"],
+        "indice": "Cette propriété définit la couleur du texte.",
+        "reponse": "color"
+      },
+      {
+        "question": "Quelle balise HTML est utilisée pour insérer une image ?",
+        "options": ["<img>", "<image>", "<pic>", "<src>"],
+        "indice": "Cette balise est utilisée pour afficher des images.",
+        "reponse": "<img>"
+      },
+      {
+        "question": "Quelle propriété CSS est utilisée pour changer la taille de la police ?",
+        "options": ["font-size", "text-size", "font-style", "size"],
+        "indice": "Cette propriété contrôle la taille du texte.",
+        "reponse": "font-size"
+      },
+      {
+        "question": "Quelle balise HTML est utilisée pour créer une liste non ordonnée ?",
+        "options": ["<ul>", "<ol>", "<li>", "<list>"],
+        "indice": "Cette balise crée une liste à puces.",
+        "reponse": "<ul>"
+      },
+      {
+        "question": "Quelle balise HTML est utilisée pour insérer une ligne horizontale ?",
+        "options": ["<line>", "<hr>", "<br>", "<horizontal>"],
+        "indice": "Cette balise crée une ligne horizontale.",
+        "reponse": "<hr>"
+      },
+      {
+        "question": "Quelle propriété CSS est utilisée pour centrer le texte ?",
+        "options": [
+          "text-align: center;",
+          "align: center;",
+          "center-text: true;",
+          "text-center: yes;"
+        ],
+        "indice": "Cette propriété aligne le texte au centre.",
+        "reponse": "text-align: center;"
+      },
+      {
+        "question": "Quelle balise HTML est utilisée pour créer un saut de ligne ?",
+        "options": ["<br>", "<break>", "<lb>", "<newline>"],
+        "indice": "Cette balise insère un saut de ligne.",
+        "reponse": "<br>"
+      },
+      {
+        "question": "Quelle propriété CSS est utilisée pour changer l'arrière-plan d'un élément ?",
+        "options": [
+          "background-color",
+          "bg-color",
+          "color-background",
+          "background"
+        ],
+        "indice": "Cette propriété définit la couleur de fond.",
+        "reponse": "background-color"
+      },
+      {
+        "question": "Quelle balise HTML est utilisée pour créer un paragraphe ?",
+        "options": ["<p>", "<para>", "<paragraph>", "<text>"],
+        "indice": "Cette balise définit un paragraphe.",
+        "reponse": "<p>"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "niveau": "Intermédiaire",
+    "questions": [
+      {
+        "question": "Quelle balise HTML est utilisée pour définir une cellule dans un tableau ?",
+        "options": ["<td>", "<tr>", "<th>", "<table>"],
+        "indice": "Cette balise représente une cellule de données.",
+        "reponse": "<td>"
+      },
+      {
+        "question": "Quelle propriété CSS est utilisée pour rendre un élément flottant à gauche ?",
+        "options": [
+          "float: left;",
+          "align: left;",
+          "position: left;",
+          "display: left;"
+        ],
+        "indice": "Cette propriété fait flotter l'élément à gauche.",
+        "reponse": "float: left;"
+      },
+      {
+        "question": "Quelle balise HTML est utilisée pour créer un formulaire ?",
+        "options": ["<form>", "<input>", "<fieldset>", "<submit>"],
+        "indice": "Cette balise encapsule les éléments de formulaire.",
+        "reponse": "<form>"
+      },
+      {
+        "question": "Quelle propriété CSS est utilisée pour masquer un élément ?",
+        "options": [
+          "display: none;",
+          "visibility: hidden;",
+          "opacity: 0;",
+          "all of the above"
+        ],
+        "indice": "Plusieurs propriétés peuvent être utilisées pour masquer un élément.",
+        "reponse": "all of the above"
+      },
+      {
+        "question": "Quelle balise HTML est utilisée pour insérer une vidéo ?",
+        "options": ["<video>", "<media>", "<movie>", "<vid>"],
+        "indice": "Cette balise est spécifique à l'insertion de vidéos.",
+        "reponse": "<video>"
+      },
+      {
+        "question": "Quelle propriété CSS est utilisée pour ajouter une ombre au texte ?",
+        "options": [
+          "text-shadow",
+          "shadow-text",
+          "font-shadow",
+          "text-outline"
+        ],
+        "indice": "Cette propriété ajoute une ombre au texte.",
+        "reponse": "text-shadow"
+      },
+      {
+        "question": "Quelle balise HTML est utilisée pour définir une zone de navigation ?",
+        "options": ["<nav>", "<menu>", "<navigation>", "<section>"],
+        "indice": "Cette balise est spécifique à la navigation.",
+        "reponse": "<nav>"
+      },
+      {
+        "question": "Quelle propriété CSS est utilisée pour arrondir les coins d'un élément ?",
+        "options": [
+          "border-radius",
+          "corner-radius",
+          "round-corner",
+          "border-curve"
+        ],
+        "indice": "Cette propriété arrondit les coins des éléments.",
+        "reponse": "border-radius"
+      },
+      {
+        "question": "Quelle balise HTML est utilisée pour insérer un fichier audio ?",
+        "options": ["<audio>", "<sound>", "<music>", "<mp3>"],
+        "indice": "Cette balise est utilisée pour insérer des fichiers audio.",
+        "reponse": "<audio>"
+      },
+      {
+        "question": "Quelle propriété CSS est utilisée pour définir la hauteur d'une ligne de texte ?",
+        "options": ["line-height", "text-height", "font-height", "height-line"],
+        "indice": "Cette propriété définit la hauteur des lignes de texte.",
+        "reponse": "line-height"
+      }
+    ]
+  }
+]

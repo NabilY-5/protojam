@@ -3,3 +3,9 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+body {
+  background-color: #fdf0d5;
+  font-family: "Comic Sans MS", sans-serif;
+  color: #8b4513;
+}
