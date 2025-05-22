@@ -2,15 +2,11 @@ import { useState } from "react";
 import htmlQuestions from "../questions/htmlCss.json";
 import "../styles/python.css";
 
-
-const story =  `Toby, un jeune castor curieux, rêve de découvrir les mystères du langage des machines. 
+const story = `Toby, un jeune castor curieux, rêve de découvrir les mystères du langage des machines. 
 Un jour, en explorant la vieille bibliothèque de la forêt, il tombe sur un livre poussiéreux, intitulé "Le Grimoire du Code". 
 En soufflant sur sa couverture, il voit apparaître des runes étranges et un message codé…
 "Si tu veux maîtriser la magie des machines, tu dois répondre aux 10 énigmes du Grand Sage."
-Déterminé, Toby part à la recherche du Grand Sage, un hibou légendaire qui connaît tous les secrets du codage.`
-;
-
-
+Déterminé, Toby part à la recherche du Grand Sage, un hibou légendaire qui connaît tous les secrets du codage.`;
 
 const HtmlQuiz = () => {
   const [level, setLevel] = useState("");
@@ -21,7 +17,6 @@ const HtmlQuiz = () => {
   const [quizRestart, setQuizRestart] = useState(false);
   const [answerGiven, setAnswerGiven] = useState(false);
 
-
   const resetQuiz = () => {
     setLevel("");
     setCurrentQuestion(0);
@@ -31,7 +26,7 @@ const HtmlQuiz = () => {
     setQuizRestart(false);
     setAnswerGiven(false);
   };
-  
+
   if (level === "") {
     return (
       <div className="quiz">
@@ -54,7 +49,7 @@ const HtmlQuiz = () => {
       </div>
     );
   }
-const niveau = level === "Débutant" ? 0 : 1;
+  const niveau = level === "Débutant" ? 0 : 1;
   const question = htmlQuestions[niveau].questions[currentQuestion];
 
   const checkAnswer = (choice: string) => {
