@@ -1,3 +1,4 @@
+import { NavLink } from "react-router-dom";
 import "./Footer.css";
 
 function Footer() {
@@ -19,7 +20,7 @@ function Footer() {
         <li className="mentions-légales">
           <p>© Copyright</p>
           <p>Site développé par Wild Dev</p>
-          <p>Mentions légales</p>
+          <NavLink to="/mentions-legales">Mentions légales</NavLink>
         </li>
       </ul>
     </footer>

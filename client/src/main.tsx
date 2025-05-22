@@ -12,6 +12,7 @@ import Html from "./pages/Html";
 import Python from "./pages/Python";
 import Quizjs from "./pages/Quizjs";
 import ReactQuiz from "./pages/React";
+import Error404 from "./pages/error";
 
 // Import additional components for new routes
 // Try creating these components in the "pages" folder
@@ -32,6 +33,7 @@ const router = createBrowserRouter([
       { path: "/Python", element: <Python /> },
       { path: "/JS", element: <Quizjs /> },
       { path: "/React", element: <ReactQuiz /> },
+      { path: "*", element: <Error404 /> },
     ],
   },
 ]);
