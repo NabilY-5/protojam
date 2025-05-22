@@ -25,7 +25,7 @@ const Home = () => {
       </p>
 
       <div className="quiz-topics">
-        <Link to="/" className="quiz-thematique">
+        <Link to="/Html" className="quiz-thematique">
           HTML et CSS
         </Link>
         <Link to="/Python" className="quiz-thematique">

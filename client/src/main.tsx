@@ -9,6 +9,7 @@ import { RouterProvider, createBrowserRouter } from "react-router";
 import App from "./App";
 import Home from "./pages/Home";
 import Python from "./pages/Python";
+import Html from "./pages/Html"
 
 // Import additional components for new routes
 // Try creating these components in the "pages" folder
@@ -25,6 +26,7 @@ const router = createBrowserRouter([
     element: <App />,
     children: [
       { path: "/", element: <Home /> },
+      { path: "/Html", element: <Html /> },
       { path: "/Python", element: <Python /> },
     ],
   },

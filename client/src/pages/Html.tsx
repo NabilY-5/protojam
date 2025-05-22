@@ -1,8 +1,18 @@
 import { useState } from "react";
-import pythonQuestions from "../questions/python.json";
+import htmlQuestions from "../questions/htmlCss.json";
 import "../styles/python.css";
 
-const PythonQuiz = () => {
+
+const story =  `Toby, un jeune castor curieux, rêve de découvrir les mystères du langage des machines. 
+Un jour, en explorant la vieille bibliothèque de la forêt, il tombe sur un livre poussiéreux, intitulé "Le Grimoire du Code". 
+En soufflant sur sa couverture, il voit apparaître des runes étranges et un message codé…
+"Si tu veux maîtriser la magie des machines, tu dois répondre aux 10 énigmes du Grand Sage."
+Déterminé, Toby part à la recherche du Grand Sage, un hibou légendaire qui connaît tous les secrets du codage.`
+;
+
+
+
+const HtmlQuiz = () => {
   const [level, setLevel] = useState("");
   const [currentQuestion, setCurrentQuestion] = useState(0);
   const [score, setScore] = useState(0);
@@ -11,10 +21,6 @@ const PythonQuiz = () => {
   const [quizRestart, setQuizRestart] = useState(false);
   const [answerGiven, setAnswerGiven] = useState(false);
 
-  const story = `Toby, un jeune castor curieux, rêve de découvrir les mystères du langage des machines. Un jour, en explorant la vieille bibliothèque de la forêt, il tombe sur un livre poussiéreux, intitulé "Le Grimoire du Code". En soufflant sur sa couverture, il voit apparaître des runes étranges et un message codé…
-"Si tu veux maîtriser la magie des machines, tu dois répondre aux 10 énigmes du Grand Sage."
-Déterminé, Toby part à la recherche du Grand Sage, un hibou légendaire qui connaît tous les secrets du codage.
-`;
 
   const resetQuiz = () => {
     setLevel("");
@@ -25,11 +31,11 @@ Déterminé, Toby part à la recherche du Grand Sage, un hibou légendaire qui c
     setQuizRestart(false);
     setAnswerGiven(false);
   };
-
+  
   if (level === "") {
     return (
       <div className="quiz">
-        <h1>Python Quiz</h1>
+        <h1>Html/CSS Quiz</h1>
         <p>Choisis ton niveau :</p>
         <button
           type="button"
@@ -48,9 +54,8 @@ Déterminé, Toby part à la recherche du Grand Sage, un hibou légendaire qui c
       </div>
     );
   }
-
-  const niveau = level === "Débutant" ? 0 : 1;
-  const question = pythonQuestions[niveau].questions[currentQuestion];
+const niveau = level === "Débutant" ? 0 : 1;
+  const question = htmlQuestions[niveau].questions[currentQuestion];
 
   const checkAnswer = (choice: string) => {
     setAnswerGiven(true);
@@ -62,10 +67,10 @@ Déterminé, Toby part à la recherche du Grand Sage, un hibou légendaire qui c
       setMessage(`Mauvaise réponse. solution : ${question.indice}`);
     }
 
-    if (currentQuestion + 1 === pythonQuestions[niveau].questions.length) {
+    if (currentQuestion + 1 === htmlQuestions[niveau].questions.length) {
       setQuizFinished(true);
       setMessage(
-        `Fin du quiz ! Ton score : ${score + (choice === question.reponse ? 1 : 0)} / ${pythonQuestions[niveau].questions.length}`,
+        `Fin du quiz ! Ton score : ${score + (choice === question.reponse ? 1 : 0)} / ${htmlQuestions[niveau].questions.length}`,
       );
       setQuizRestart(true);
     }
@@ -84,7 +89,7 @@ Déterminé, Toby part à la recherche du Grand Sage, un hibou légendaire qui c
 
       <p className="question-number">
         Question {currentQuestion + 1} /{" "}
-        {pythonQuestions[niveau].questions.length}
+        {htmlQuestions[niveau].questions.length}
       </p>
 
       {!quizFinished && (
@@ -121,4 +126,4 @@ Déterminé, Toby part à la recherche du Grand Sage, un hibou légendaire qui c
   );
 };
 
-export default PythonQuiz;
+export default HtmlQuiz;

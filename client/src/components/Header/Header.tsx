@@ -8,7 +8,7 @@ const Header = () => {
         <img src="logo/castor.png" alt="castor" />
       </Link>
       <nav>
-        <NavLink to="">HTML/CSS</NavLink>
+        <NavLink to="/Html">HTML/CSS</NavLink>
         <NavLink to="">Javascript</NavLink>
         <NavLink to="/Python">Python</NavLink>
         <NavLink to="">React</NavLink>
