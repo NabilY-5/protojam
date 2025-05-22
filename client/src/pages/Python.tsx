@@ -7,12 +7,24 @@ const PythonQuiz = () => {
   const [currentQuestion, setCurrentQuestion] = useState(0);
   const [score, setScore] = useState(0);
   const [message, setMessage] = useState("");
+  const [quizFinished, setQuizFinished] = useState(false);
+  const [quizRestart, setQuizRestart] = useState(false);
+  const [answerGiven, setAnswerGiven] = useState(false);
 
-  const story = `Il était une fois un jeune castor nommé Toby, curieux d'apprendre le langage secret des machines.
-Un jour, il découvre un vieux livre où chaque page révèle un mystère du codage.
-En soufflant pour se débarrasser de la poussière de la couverture, apparaissent le nom de l'auteur PRINT et une inscription : "Si tu veux parler à la machine, tu dois utiliser un mot magique..."\n\n
-En lisant la première page, Toby se rend compte d'un message codé: "Comment écrire un message sans que la machine l'exécute ?"
-Ne connaissant pas la réponse, il file voir le Grand Sage de la forêt qui lui souffle: *#*, le langage des runes secrètes.`;
+  const story = `Toby, un jeune castor curieux, rêve de découvrir les mystères du langage des machines. Un jour, en explorant la vieille bibliothèque de la forêt, il tombe sur un livre poussiéreux, intitulé "Le Grimoire du Code". En soufflant sur sa couverture, il voit apparaître des runes étranges et un message codé…
+"Si tu veux maîtriser la magie des machines, tu dois répondre aux 10 énigmes du Grand Sage."
+Déterminé, Toby part à la recherche du Grand Sage, un hibou légendaire qui connaît tous les secrets du codage.
+`;
+
+  const resetQuiz = () => {
+    setLevel("");
+    setCurrentQuestion(0);
+    setScore(0);
+    setMessage("");
+    setQuizFinished(false);
+    setQuizRestart(false);
+    setAnswerGiven(false);
+  };
 
   if (level === "") {
     return (
@@ -41,28 +53,33 @@ Ne connaissant pas la réponse, il file voir le Grand Sage de la forêt qui lui 
   const question = pythonQuestions[niveau].questions[currentQuestion];
 
   const checkAnswer = (choice: string) => {
+    setAnswerGiven(true);
+
     if (choice === question.reponse) {
       setScore(score + 1);
-      setMessage("Bonne réponse !");
+      setMessage(" Bonne réponse !");
     } else {
-      setMessage(` Mauvaise réponse. Indice : ${question.indice}`);
+      setMessage(`Mauvaise réponse. Indice : ${question.indice}`);
     }
 
-    setTimeout(() => {
-      if (currentQuestion + 1 < pythonQuestions[niveau].questions.length) {
-        setCurrentQuestion(currentQuestion + 1);
-        setMessage("");
-      } else {
-        setMessage(
-          `Fin du quiz ! Ton score : ${score} / ${pythonQuestions[niveau].questions.length}`,
-        );
-      }
-    }, 3500);
+    if (currentQuestion + 1 === pythonQuestions[niveau].questions.length) {
+      setQuizFinished(true);
+      setMessage(
+        `Fin du quiz ! Ton score : ${score + (choice === question.reponse ? 1 : 0)} / ${pythonQuestions[niveau].questions.length}`,
+      );
+      setQuizRestart(true);
+    }
+  };
+
+  const nextQuestion = () => {
+    setAnswerGiven(false);
+    setMessage("");
+    setCurrentQuestion(currentQuestion + 1);
   };
 
   return (
     <div className="quiz">
-      <h2> Niveau : {level}</h2>
+      <h2>Niveau : {level}</h2>
       {level === "Débutant" && <p className="story">{story}</p>}
 
       <p className="question-number">
@@ -70,20 +87,36 @@ Ne connaissant pas la réponse, il file voir le Grand Sage de la forêt qui lui 
         {pythonQuestions[niveau].questions.length}
       </p>
 
-      <p className="question">{question.question}</p>
-      <div className="options">
-        {question.options.map((i) => (
-          <button
-            type="button"
-            key={i}
-            onClick={() => checkAnswer(i)}
-            className="button"
-          >
-            {i}
-          </button>
-        ))}
-      </div>
+      {!quizFinished && (
+        <>
+          <p className="question">{question.question}</p>
+          <div className="options">
+            {question.options.map((i) => (
+              <button
+                type="button"
+                key={i}
+                onClick={() => checkAnswer(i)}
+                className="button"
+              >
+                {i}
+              </button>
+            ))}
+          </div>
+        </>
+      )}
+
       <p className="feedback">{message}</p>
+
+      {answerGiven && !quizFinished && (
+        <button type="button" onClick={nextQuestion} className="next-button">
+          Suivant
+        </button>
+      )}
+      {quizRestart && (
+        <button type="button" onClick={resetQuiz} className="restart-button">
+          Recommencer le quiz
+        </button>
+      )}
     </div>
   );
 };

@@ -6,25 +6,25 @@
       {
         "question": "Quel mot-clé est utilisé pour afficher un message à l'écran en Python ?",
         "options": ["print", "echo", "display", "show"],
-        "indice": "Ce mot commence par 'p' et est utilisé pour afficher du texte.",
+        "indice": "Ce mot commence par un P, et c'est la première formule que tout apprenti du code apprend",
         "reponse": "print"
       },
       {
         "question": "Comment commence-t-on un commentaire sur une seule ligne en Python ?",
-        "options": ["//", "#", "/*", "--"],
-        "indice": "C'est un symbole dièse.",
+        "options": ["//", "--", "/*", "#"],
+        "indice": "Ce symbole ressemble à une griffe de castor et empêche le texte d'être interprété par la machine.",
         "reponse": "#"
       },
       {
         "question": "Quel est le bon type de données pour stocker le nombre 10 en Python ?",
         "options": ["int", "str", "float", "bool"],
-        "indice": "C'est le type pour les nombres entiers.",
+        "indice": "Ce type de données est stable et entier, il ne contIeNT pas de virgule",
         "reponse": "int"
       },
       {
         "question": "Quelle est la bonne façon de créer une liste vide en Python ?",
         "options": ["[]", "{}", "()", "<>"],
-        "indice": "Utilisez des crochets.",
+        "indice": "Un mage utilisera des crochets pour conserver ses objets précieusement",
         "reponse": "[]"
       },
       {
@@ -35,7 +35,7 @@
           "func ma_fonction():",
           "declare ma_fonction():"
         ],
-        "indice": "Le mot-clé commence par 'def'.",
+        "indice": "Ce mot-clé commence par D et permet de créer un sort réutilisable",
         "reponse": "def ma_fonction():"
       },
       {
@@ -47,25 +47,25 @@
       {
         "question": "Quelle est la bonne façon de vérifier si deux valeurs sont égales en Python ?",
         "options": ["==", "=", "===", "!="],
-        "indice": "C'est une double égalité.",
+        "indice": "Ce symbole est double, car une seule égalité ne suffit pas",
         "reponse": "=="
       },
       {
         "question": "Quel est le résultat de len(\"Python\") ?",
         "options": ["5", "6", "7", "Erreur"],
-        "indice": "Comptez le nombre de lettres.",
+        "indice": "Compte toutes les lettres, sans oublier le symbole caché au cœur du mot.",
         "reponse": "6"
       },
       {
         "question": "Quel symbole est utilisé pour l'opérateur 'et' logique en Python ?",
         "options": ["and", "&", "&&", "et"],
-        "indice": "C'est un mot-clé en anglais.",
+        "indice": "Ce mot-clé est en anglais, et il signifie l'union de deux vérités",
         "reponse": "and"
       },
       {
         "question": "Comment appelle-t-on une erreur dans le code Python ?",
         "options": ["bug", "glitch", "exception", "erreur"],
-        "indice": "C'est un terme général pour un problème dans le code.",
+        "indice": "Ce mot est souvent utilisé pour parler des problèmes mystérieux qui apparaissent dans le code.",
         "reponse": "bug"
       }
     ]

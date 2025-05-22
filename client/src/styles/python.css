@@ -75,3 +75,19 @@ h2 {
   font-style: italic;
   border: 2px solid #d2a679;
 }
+
+.restart-button,
+.next-button {
+  background: #ffcc80;
+  padding: 12px 20px;
+  font-size: 1.2rem;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+.restart-button:hover,
+.next-button:hover {
+  background: #f4a261;
+}
