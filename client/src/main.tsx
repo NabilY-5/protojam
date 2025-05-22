@@ -10,6 +10,7 @@ import App from "./App";
 import Home from "./pages/Home";
 import Python from "./pages/Python";
 import Quizjs from "./pages/Quizjs";
+import ReactQuiz from "./pages/React";
 
 // Import additional components for new routes
 // Try creating these components in the "pages" folder
@@ -28,6 +29,7 @@ const router = createBrowserRouter([
       { path: "/", element: <Home /> },
       { path: "/Python", element: <Python /> },
       { path: "/JS", element: <Quizjs /> },
+      { path: "/React", element: <ReactQuiz /> },
     ],
   },
 ]);

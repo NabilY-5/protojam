@@ -34,7 +34,7 @@ const Home = () => {
         <Link to="/JS" className="quiz-thematique">
           JavaScript
         </Link>
-        <Link to="/" className="quiz-thematique">
+        <Link to="/React" className="quiz-thematique">
           React
         </Link>
       </div>
