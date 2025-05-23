@@ -95,3 +95,8 @@ h2 {
 .next-button:hover {
   background: #f4a261;
 }
+
+.img-animation {
+  border-radius: 16px;
+  height: 400px;
+}
