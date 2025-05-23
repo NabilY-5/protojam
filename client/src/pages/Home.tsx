@@ -31,7 +31,7 @@ const Home = () => {
         <Link to="/Python" className="quiz-thematique">
           Python
         </Link>
-        <Link to="/JS" className="quiz-thematique">
+        <Link to="/Javascript" className="quiz-thematique">
           JavaScript
         </Link>
         <Link to="/React" className="quiz-thematique">
