@@ -1,6 +1,8 @@
 import { useState } from "react";
 import htmlQuestions from "../questions/htmlCss.json";
 import "../styles/python.css";
+import defaite from "../../public/logo/defaite.webp";
+import victoire from "../../public/logo/victoire.jpg";
 
 const story = `Toby, un jeune castor curieux, rêve de découvrir les mystères du langage des machines. 
 Un jour, en explorant la vieille bibliothèque de la forêt, il tombe sur un livre poussiéreux, intitulé "Le Grimoire du Code". 
@@ -16,6 +18,7 @@ const HtmlQuiz = () => {
   const [quizFinished, setQuizFinished] = useState(false);
   const [quizRestart, setQuizRestart] = useState(false);
   const [answerGiven, setAnswerGiven] = useState(false);
+  const [animation, setAnimation] = useState("");
 
   const resetQuiz = () => {
     setLevel("");
@@ -63,11 +66,18 @@ const HtmlQuiz = () => {
     }
 
     if (currentQuestion + 1 === htmlQuestions[niveau].questions.length) {
+      const finalScore = score + (choice === question.reponse ? 1 : 0);
       setQuizFinished(true);
       setMessage(
         `Fin du quiz ! Ton score : ${score + (choice === question.reponse ? 1 : 0)} / ${htmlQuestions[niveau].questions.length}`,
       );
       setQuizRestart(true);
+
+      if (finalScore >= 5) {
+        setAnimation(victoire);
+      } else {
+        setAnimation(defaite);
+      }
     }
   };
 
@@ -111,6 +121,9 @@ const HtmlQuiz = () => {
         <button type="button" onClick={nextQuestion} className="next-button">
           Suivant
         </button>
+      )}
+      {quizFinished && animation && (
+        <img src={animation} alt="coupe" className="img-animation" />
       )}
       {quizRestart && (
         <button type="button" onClick={resetQuiz} className="restart-button">

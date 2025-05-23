@@ -1,6 +1,8 @@
 import { useState } from "react";
 import jsQuestions from "../questions/js.json";
 import "../styles/jsquiz.css";
+import defaite from "../../public/logo/defaite.webp";
+import victoire from "../../public/logo/victoire.jpg";
 
 const JsQuiz = () => {
   const [level, setLevel] = useState("");
@@ -10,6 +12,7 @@ const JsQuiz = () => {
   const [quizFinished, setQuizFinished] = useState(false);
   const [quizRestart, setQuizRestart] = useState(false);
   const [answerGiven, setAnswerGiven] = useState(false);
+  const [animation, setAnimation] = useState("");
 
   const story =
     'Toby, un jeune castor curieux, rêve de découvrir les mystères du langage des machines. Un jour, en explorant la vieille bibliothèque de la forêt, il tombe sur un livre poussiéreux, intitulé "Le Grimoire du Code". En soufflant sur sa couverture, il voit apparaître des runes étranges et un message codé…"Si tu veux maîtriser la magie des machines, tu dois répondre aux 10 énigmes du Grand Sage." Déterminé, Toby part à la recherche du Grand Sage, un hibou légendaire qui connaît tous les secrets du codage.';
@@ -61,11 +64,18 @@ const JsQuiz = () => {
     }
 
     if (currentQuestion + 1 === jsQuestions[niveau].questions.length) {
+      const finalScore = score + (choice === question.reponse ? 1 : 0);
       setQuizFinished(true);
       setMessage(
         `Fin du quiz ! Ton score : ${score + (choice === question.reponse ? 1 : 0)} / ${jsQuestions[niveau].questions.length}`,
       );
       setQuizRestart(true);
+
+      if (finalScore >= 5) {
+        setAnimation(victoire);
+      } else {
+        setAnimation(defaite);
+      }
     }
   };
 
@@ -103,6 +113,9 @@ const JsQuiz = () => {
         <button type="button" onClick={nextQuestion} className="next-button">
           Suivant
         </button>
+      )}
+      {quizFinished && animation && (
+        <img src={animation} alt="coupe" className="img-animation" />
       )}
       {quizRestart && (
         <button type="button" onClick={resetQuiz} className="restart-button">
