@@ -5,7 +5,10 @@
 }
 
 body {
-  background-color: #fdf0d5;
   font-family: "Comic Sans MS", sans-serif;
   color: #8b4513;
+  background-image: url("../public/imagedesktop.png");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
 }

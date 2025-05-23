@@ -1,6 +1,6 @@
 import { useState } from "react";
 import jsQuestions from "../questions/js.json";
-import "../styles/jsquiz.css";
+import "../styles/python.css";
 import defaite from "../../public/logo/defaite.webp";
 import victoire from "../../public/logo/victoire.jpg";
 
@@ -60,7 +60,7 @@ const JsQuiz = () => {
       setScore(score + 1);
       setMessage(" Bonne réponse !");
     } else {
-      setMessage(`Mauvaise réponse. Solution : ${question.indice}`);
+      setMessage(`Mauvaise réponse.  "${question.indice}"`);
     }
 
     if (currentQuestion + 1 === jsQuestions[niveau].questions.length) {

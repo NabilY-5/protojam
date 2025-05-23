@@ -1,5 +1,6 @@
 footer {
   background-color: rgb(215, 182, 138);
+  padding: 3px;
 }
 
 footer ul {
@@ -11,8 +12,6 @@ footer ul {
   color: #5c3d2e;
   font-weight: bold;
   font-size: 0.4rem;
-  padding: 0px;
-  margin: 0;
 }
 
 h3 {
@@ -47,7 +46,6 @@ li {
 
   a {
     margin: 16px;
-    padding: 8px;
     color: #5c3d2e;
     font-weight: bold;
     font-size: 1rem;

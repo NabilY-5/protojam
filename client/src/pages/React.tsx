@@ -1,6 +1,6 @@
 import { useState } from "react";
 import reactQuestions from "../questions/reactjs.json";
-import "../styles/react.css";
+import "../styles/python.css";
 import defaite from "../../public/logo/defaite.webp";
 import victoire from "../../public/logo/victoire.jpg";
 
@@ -61,7 +61,7 @@ Déterminé, Toby part à la recherche du Grand Sage, un hibou légendaire qui c
       setScore(score + 1);
       setMessage(" Bonne réponse !");
     } else {
-      setMessage(`Mauvaise réponse. Solution : ${question.indice}`);
+      setMessage(`Mauvaise réponse.  "${question.indice}"`);
     }
 
     if (currentQuestion + 1 === reactQuestions[niveau].questions.length) {

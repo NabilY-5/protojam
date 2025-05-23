@@ -62,7 +62,7 @@ Déterminé, Toby part à la recherche du Grand Sage, un hibou légendaire qui c
       setScore(score + 1);
       setMessage(" Bonne réponse !");
     } else {
-      setMessage(`Mauvaise réponse. Solution : ${question.indice}`);
+      setMessage(`Mauvaise réponse.  "${question.indice}"`);
     }
 
     if (currentQuestion + 1 === pythonQuestions[niveau].questions.length) {
