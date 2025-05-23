@@ -7,6 +7,12 @@ import { RouterProvider, createBrowserRouter } from "react-router";
 
 // Import the main app component
 import App from "./App";
+import Home from "./pages/Home";
+import Html from "./pages/Html";
+import Python from "./pages/Python";
+import Quizjs from "./pages/Quizjs";
+import ReactQuiz from "./pages/React";
+import Error404 from "./pages/error";
 
 // Import additional components for new routes
 // Try creating these components in the "pages" folder
@@ -20,10 +26,16 @@ import App from "./App";
 // You can add more routes as you build out your app!
 const router = createBrowserRouter([
   {
-    path: "/", // The root path
-    element: <App />, // Renders the App component for the home page
+    element: <App />,
+    children: [
+      { path: "/", element: <Home /> },
+      { path: "/Html", element: <Html /> },
+      { path: "/Python", element: <Python /> },
+      { path: "/Javascript", element: <Quizjs /> },
+      { path: "/React", element: <ReactQuiz /> },
+      { path: "*", element: <Error404 /> },
+    ],
   },
-  // Try adding a new route! For example, "/about" with an About component
 ]);
 
 /* ************************************************************************* */

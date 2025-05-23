@@ -1,156 +1,194 @@
-{
-  "quiz": [
-    {
-      "id": 1,
-      "niveau": "Débutant",
-      "questions": [
-        {
-          "id": 1,
-          "question": "Qu'est-ce que React ?",
-          "options": ["Une bibliothèque JavaScript", "Un langage de programmation", "Un système d'exploitation", "Un navigateur web"],
-          "indice": "C'est une bibliothèque utilisée pour construire des interfaces utilisateur.",
-          "reponse": "Une bibliothèque JavaScript"
-        },
-        {
-          "id": 2,
-          "question": "Quel mot-clé est utilisé pour importer React dans un fichier JavaScript ?",
-          "options": ["require", "import", "include", "fetch"],
-          "indice": "C'est un mot-clé ES6 utilisé pour importer des modules.",
-          "reponse": "import"
-        },
-        {
-          "id": 3,
-          "question": "Comment appelle-t-on une fonction qui retourne du JSX ?",
-          "options": ["Composant", "Module", "Classe", "Objet"],
-          "indice": "C'est l'unité de base de React.",
-          "reponse": "Composant"
-        },
-        {
-          "id": 4,
-          "question": "Quel est le nom de la syntaxe qui permet d'écrire du HTML dans du JavaScript ?",
-          "options": ["JSX", "HTMLX", "JHTML", "XJS"],
-          "indice": "C'est une extension de la syntaxe JavaScript.",
-          "reponse": "JSX"
-        },
-        {
-          "id": 5,
-          "question": "Quelle méthode est utilisée pour afficher un composant React dans le DOM ?",
-          "options": ["ReactDOM.render()", "React.render()", "renderComponent()", "display()"],
-          "indice": "Elle appartient à ReactDOM.",
-          "reponse": "ReactDOM.render()"
-        },
-        {
-          "id": 6,
-          "question": "Quel hook est utilisé pour gérer l'état dans un composant fonctionnel ?",
-          "options": ["useState", "useEffect", "useContext", "useReducer"],
-          "indice": "Il commence par 'use' et gère l'état.",
-          "reponse": "useState"
-        },
-        {
-          "id": 7,
-          "question": "Comment appelle-t-on les données passées à un composant React ?",
-          "options": ["Props", "States", "Attributes", "Parameters"],
-          "indice": "C'est une abréviation de 'properties'.",
-          "reponse": "Props"
-        },
-        {
-          "id": 8,
-          "question": "Quel est le nom de l'outil de développement pour inspecter les composants React dans le navigateur ?",
-          "options": ["React Developer Tools", "React Inspector", "React Analyzer", "React Debugger"],
-          "indice": "C'est une extension pour les navigateurs.",
-          "reponse": "React Developer Tools"
-        },
-        {
-          "id": 9,
-          "question": "Quel est le nom de la fonction utilisée pour créer un nouveau projet React ?",
-          "options": ["create-react-app", "init-react", "react-new", "start-react"],
-          "indice": "C'est une commande CLI populaire.",
-          "reponse": "create-react-app"
-        },
-        {
-          "id": 10,
-          "question": "Quel est le nom du fichier principal d'un projet React créé avec create-react-app ?",
-          "options": ["App.js", "Main.js", "Index.js", "Root.js"],
-          "indice": "C'est le composant principal.",
-          "reponse": "App.js"
-        }
-      ]
-    },
-    {
-      "id": 2,
-      "niveau": "Intermédiaire",
-      "questions": [
-        {
-          "id": 11,
-          "question": "Quel hook est utilisé pour effectuer des effets de bord dans un composant fonctionnel ?",
-          "options": ["useEffect", "useState", "useContext", "useReducer"],
-          "indice": "Il est souvent utilisé pour les appels API.",
-          "reponse": "useEffect"
-        },
-        {
-          "id": 12,
-          "question": "Quel est le nom du système de routage populaire utilisé avec React ?",
-          "options": ["React Router", "React Navigation", "React Path", "React Routes"],
-          "indice": "Il permet de gérer les routes dans une application React.",
-          "reponse": "React Router"
-        },
-        {
-          "id": 13,
-          "question": "Quel est le nom du contexte utilisé pour partager des données entre composants sans passer par les props ?",
-          "options": ["Context API", "Redux", "State API", "Data API"],
-          "indice": "C'est une API intégrée à React.",
-          "reponse": "Context API"
-        },
-        {
-          "id": 14,
-          "question": "Quel est le nom de la méthode utilisée pour mettre à jour l'état dans un composant de classe ?",
-          "options": ["this.setState()", "this.updateState()", "this.changeState()", "this.modifyState()"],
-          "indice": "Elle commence par 'this.set'.",
-          "reponse": "this.setState()"
-        },
-        {
-          "id": 15,
-          "question": "Quel est le nom de la méthode du cycle de vie appelée après le montage d'un composant de classe ?",
-          "options": ["componentDidMount", "componentWillMount", "componentDidUpdate", "componentWillUpdate"],
-          "indice": "Elle est appelée juste après le montage.",
-          "reponse": "componentDidMount"
-        },
-        {
-          "id": 16,
-          "question": "Quel est le nom de l'objet utilisé pour accéder aux paramètres dans React Router ?",
-          "options": ["useParams", "useRouter", "useRoute", "usePath"],
-          "indice": "C'est un hook fourni par React Router.",
-          "reponse": "useParams"
-        },
-        {
-          "id": 17,
-          "question": "Quel est le nom de la méthode utilisée pour créer un contexte en React ?",
-          "options": ["React.createContext()", "React.newContext()", "React.initContext()", "React.buildContext()"],
-          "indice": "Elle commence par 'React.create'.",
-          "reponse": "React.createContext()"
-        },
-        {
-          "id": 18,
-          "question": "Quel est le nom du hook utilisé pour accéder au contexte dans un composant fonctionnel ?",
-          "options": ["useContext", "useState", "useEffect", "useReducer"],
-          "indice": "Il commence par 'use' et se termine par 'Context'.",
-          "reponse": "useContext"
-        },
-        {
-          "id": 19,
-          "question": "Quel est le nom du hook utilisé pour gérer un état complexe avec un réducteur ?",
-          "options": ["useReducer", "useState", "useEffect", "useContext"],
-          "indice": "Il est similaire à Redux.",
-          "reponse": "useReducer"
-        },
-        {
-          "id": 20,
-          "question": "Quel est le nom de la méthode utilisée pour rendre une liste d'éléments en React ?",
-          "options": ["map()", "forEach()", "filter()", "reduce()"],
-          "indice": "Elle est utilisée pour transformer un tableau.",
-          "reponse": "map()"
-        }
-      ]
-    }
-  ]
-}
+[
+  {
+    "id": 1,
+    "niveau": "Débutant",
+    "questions": [
+      {
+        "id": 1,
+        "question": "Qu'est-ce que React ?",
+        "options": [
+          "Une bibliothèque JavaScript",
+          "Un langage de programmation",
+          "Un système d'exploitation",
+          "Un navigateur web"
+        ],
+        "indice": "C'est une bibliothèque utilisée pour construire des interfaces utilisateur.",
+        "reponse": "Une bibliothèque JavaScript"
+      },
+      {
+        "id": 2,
+        "question": "Quel mot-clé est utilisé pour importer React dans un fichier JavaScript ?",
+        "options": ["require", "import", "include", "fetch"],
+        "indice": "C'est un mot-clé ES6 utilisé pour importer des modules.",
+        "reponse": "import"
+      },
+      {
+        "id": 3,
+        "question": "Comment appelle-t-on une fonction qui retourne du JSX ?",
+        "options": ["Composant", "Module", "Classe", "Objet"],
+        "indice": "C'est l'unité de base de React.",
+        "reponse": "Composant"
+      },
+      {
+        "id": 4,
+        "question": "Quel est le nom de la syntaxe qui permet d'écrire du HTML dans du JavaScript ?",
+        "options": ["JSX", "HTMLX", "JHTML", "XJS"],
+        "indice": "C'est une extension de la syntaxe JavaScript.",
+        "reponse": "JSX"
+      },
+      {
+        "id": 5,
+        "question": "Quelle méthode est utilisée pour afficher un composant React dans le DOM ?",
+        "options": [
+          "ReactDOM.render()",
+          "React.render()",
+          "renderComponent()",
+          "display()"
+        ],
+        "indice": "Elle appartient à ReactDOM.",
+        "reponse": "ReactDOM.render()"
+      },
+      {
+        "id": 6,
+        "question": "Quel hook est utilisé pour gérer l'état dans un composant fonctionnel ?",
+        "options": ["useState", "useEffect", "useContext", "useReducer"],
+        "indice": "Il commence par 'use' et gère l'état.",
+        "reponse": "useState"
+      },
+      {
+        "id": 7,
+        "question": "Comment appelle-t-on les données passées à un composant React ?",
+        "options": ["Props", "States", "Attributes", "Parameters"],
+        "indice": "C'est une abréviation de 'properties'.",
+        "reponse": "Props"
+      },
+      {
+        "id": 8,
+        "question": "Quel est le nom de l'outil de développement pour inspecter les composants React dans le navigateur ?",
+        "options": [
+          "React Developer Tools",
+          "React Inspector",
+          "React Analyzer",
+          "React Debugger"
+        ],
+        "indice": "C'est une extension pour les navigateurs.",
+        "reponse": "React Developer Tools"
+      },
+      {
+        "id": 9,
+        "question": "Quel est le nom de la fonction utilisée pour créer un nouveau projet React ?",
+        "options": [
+          "create-react-app",
+          "init-react",
+          "react-new",
+          "start-react"
+        ],
+        "indice": "C'est une commande CLI populaire.",
+        "reponse": "create-react-app"
+      },
+      {
+        "id": 10,
+        "question": "Quel est le nom du fichier principal d'un projet React créé avec create-react-app ?",
+        "options": ["App.js", "Main.js", "Index.js", "Root.js"],
+        "indice": "C'est le composant principal.",
+        "reponse": "App.js"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "niveau": "Intermédiaire",
+    "questions": [
+      {
+        "id": 11,
+        "question": "Quel hook est utilisé pour effectuer des effets de bord dans un composant fonctionnel ?",
+        "options": ["useEffect", "useState", "useContext", "useReducer"],
+        "indice": "L’un d’eux, le sage useEffect, réalisait des enchantements appelés effets de bord.",
+        "reponse": "useEffect"
+      },
+      {
+        "id": 12,
+        "question": "Quel est le nom du système de routage populaire utilisé avec React ?",
+        "options": [
+          "React Router",
+          "React Navigation",
+          "React Path",
+          "React Routes"
+        ],
+        "indice": "Pour guider les voyageurs, il y avait le React Router, un guide qui montrait les routes secrètes à travers le royaume, permettant de passer d’un lieu à un autre sans jamais se perdre.",
+        "reponse": "React Router"
+      },
+      {
+        "id": 13,
+        "question": "Quel est le nom du contexte utilisé pour partager des données entre composants sans passer par les props ?",
+        "options": ["Context API", "Redux", "State API", "Data API"],
+        "indice": "Context API est intégrée à React.",
+        "reponse": "Context API"
+      },
+      {
+        "id": 14,
+        "question": "Quel est le nom de la méthode utilisée pour mettre à jour l'état dans un composant de classe ?",
+        "options": [
+          "this.setState()",
+          "this.updateState()",
+          "this.changeState()",
+          "this.modifyState()"
+        ],
+        "indice": "Les reines des châteaux utilisaient la méthode sacrée this.setState() pour changer l’état de leur domaine.",
+        "reponse": "this.setState()"
+      },
+      {
+        "id": 15,
+        "question": "Quel est le nom de la méthode du cycle de vie appelée après le montage d'un composant de classe ?",
+        "options": [
+          "componentDidMount",
+          "componentWillMount",
+          "componentDidUpdate",
+          "componentWillUpdate"
+        ],
+        "indice": "componentDidMount est appelée juste après le montage.",
+        "reponse": "componentDidMount"
+      },
+      {
+        "id": 16,
+        "question": "Quel est le nom de l'objet utilisé pour accéder aux paramètres dans React Router ?",
+        "options": ["useParams", "useRouter", "useRoute", "usePath"],
+        "indice": "Les aventuriers, grâce à un objet magique nommé useParams, pouvaient récupérer les clés secrètes dans les chemins du royaume.",
+        "reponse": "useParams"
+      },
+      {
+        "id": 17,
+        "question": "Quel est le nom de la méthode utilisée pour créer un contexte en React ?",
+        "options": [
+          "React.createContext()",
+          "React.newContext()",
+          "React.initContext()",
+          "React.buildContext()"
+        ],
+        "indice": "Elle commence par 'React.create'.",
+        "reponse": "React.createContext()"
+      },
+      {
+        "id": 18,
+        "question": "Quel est le nom du hook utilisé pour accéder au contexte dans un composant fonctionnel ?",
+        "options": ["useContext", "useState", "useEffect", "useReducer"],
+        "indice": "Il commence par 'use' et se termine par 'Context'.",
+        "reponse": "useContext"
+      },
+      {
+        "id": 19,
+        "question": "Quel est le nom du hook utilisé pour gérer un état complexe avec un réducteur ?",
+        "options": ["useReducer", "useState", "useEffect", "useContext"],
+        "indice": "useReducer.",
+        "reponse": "useReducer"
+      },
+      {
+        "id": 20,
+        "question": "Quel est le nom de la méthode utilisée pour rendre une liste d'éléments en React ?",
+        "options": ["map()", "forEach()", "filter()", "reduce()"],
+        "indice": "Les artisans utilisaient la méthode map(), qui transformait chaque élément en guerrier prêt à défendre l’écran.",
+        "reponse": "map()"
+      }
+    ]
+  }
+]
