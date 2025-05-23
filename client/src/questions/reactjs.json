@@ -103,7 +103,7 @@
         "id": 11,
         "question": "Quel hook est utilisé pour effectuer des effets de bord dans un composant fonctionnel ?",
         "options": ["useEffect", "useState", "useContext", "useReducer"],
-        "indice": "Il est souvent utilisé pour les appels API.",
+        "indice": "L’un d’eux, le sage useEffect, réalisait des enchantements appelés effets de bord.",
         "reponse": "useEffect"
       },
       {
@@ -115,14 +115,14 @@
           "React Path",
           "React Routes"
         ],
-        "indice": "Il permet de gérer les routes dans une application React.",
+        "indice": "Pour guider les voyageurs, il y avait le React Router, un guide qui montrait les routes secrètes à travers le royaume, permettant de passer d’un lieu à un autre sans jamais se perdre.",
         "reponse": "React Router"
       },
       {
         "id": 13,
         "question": "Quel est le nom du contexte utilisé pour partager des données entre composants sans passer par les props ?",
         "options": ["Context API", "Redux", "State API", "Data API"],
-        "indice": "C'est une API intégrée à React.",
+        "indice": "Context API est intégrée à React.",
         "reponse": "Context API"
       },
       {
@@ -134,7 +134,7 @@
           "this.changeState()",
           "this.modifyState()"
         ],
-        "indice": "Elle commence par 'this.set'.",
+        "indice": "Les reines des châteaux utilisaient la méthode sacrée this.setState() pour changer l’état de leur domaine.",
         "reponse": "this.setState()"
       },
       {
@@ -146,14 +146,14 @@
           "componentDidUpdate",
           "componentWillUpdate"
         ],
-        "indice": "Elle est appelée juste après le montage.",
+        "indice": "componentDidMount est appelée juste après le montage.",
         "reponse": "componentDidMount"
       },
       {
         "id": 16,
         "question": "Quel est le nom de l'objet utilisé pour accéder aux paramètres dans React Router ?",
         "options": ["useParams", "useRouter", "useRoute", "usePath"],
-        "indice": "C'est un hook fourni par React Router.",
+        "indice": "Les aventuriers, grâce à un objet magique nommé useParams, pouvaient récupérer les clés secrètes dans les chemins du royaume.",
         "reponse": "useParams"
       },
       {
@@ -179,14 +179,14 @@
         "id": 19,
         "question": "Quel est le nom du hook utilisé pour gérer un état complexe avec un réducteur ?",
         "options": ["useReducer", "useState", "useEffect", "useContext"],
-        "indice": "Il est similaire à Redux.",
+        "indice": "useReducer.",
         "reponse": "useReducer"
       },
       {
         "id": 20,
         "question": "Quel est le nom de la méthode utilisée pour rendre une liste d'éléments en React ?",
         "options": ["map()", "forEach()", "filter()", "reduce()"],
-        "indice": "Elle est utilisée pour transformer un tableau.",
+        "indice": "Les artisans utilisaient la méthode map(), qui transformait chaque élément en guerrier prêt à défendre l’écran.",
         "reponse": "map()"
       }
     ]

@@ -15,15 +15,6 @@ const ReactQuiz = () => {
 "Si tu veux maîtriser la magie des machines, tu dois répondre aux 10 énigmes du Grand Sage."
 Déterminé, Toby part à la recherche du Grand Sage, un hibou légendaire qui connaît tous les secrets du codage.`;
 
-  const story2 = `Les Mages et les Mystères du Royaume React
-Dans les profondeurs du royaume React, vivaient de puissants mages qui maîtrisaient des sorts avancés pour rendre le royaume encore plus vivant et interactif.
-L’un d’eux, le sage useEffect, réalisait des enchantements appelés effets de bord. Il pouvait invoquer des créatures invisibles — comme des appels aux royaumes lointains, les API — pour rapporter des informations fraîches dès qu’un nouveau château apparaissait.
-Pour guider les voyageurs, il y avait le React Router, un guide qui montrait les routes secrètes à travers le royaume, permettant de passer d’un lieu à un autre sans jamais se perdre. Et pour que les secrets se partagent facilement entre les habitants, une boîte magique appelée Context API distribuait ses trésors sans que chacun doive passer par les messagers habituels.
-Les reines des châteaux utilisaient la méthode sacrée this.setState() pour changer l’état de leur domaine, et après chaque installation d’un nouveau noble château, un rituel nommé componentDidMount assurait que tout s’intègre parfaitement.
-Les aventuriers, grâce à un objet magique nommé useParams, pouvaient récupérer les clés secrètes dans les chemins du royaume, tandis que les mages créaient des cercles puissants avec React.createContext(), partageant leurs pouvoirs à tous ceux qui s’y connectaient via le sortilège useContext.
-Quand les défis devenaient complexes, le gardien appelé useReducer prenait le relais, transformant les actions en nouveaux états, gardant le royaume en équilibre. Et pour construire de grandes armées d’éléments, les artisans utilisaient la méthode map(), qui transformait chaque élément en guerrier prêt à défendre l’écran.
-Ainsi, grâce à ces mages et à leur savoir ancien, le royaume React prospérait, magique et vivant, prêt à accueillir de nouveaux artisans du code.`;
-
   const resetQuiz = () => {
     setLevel("");
     setCurrentQuestion(0);
@@ -89,7 +80,6 @@ Ainsi, grâce à ces mages et à leur savoir ancien, le royaume React prospérai
     <div className="quiz">
       <h2> Niveau : {level}</h2>
       {level === "Débutant" && <p className="story">{story}</p>}
-      {level === "Intermédiaire" && <p className="story2">{story2}</p>}
 
       <p className="question-number">
         Question {currentQuestion + 1} /{" "}
