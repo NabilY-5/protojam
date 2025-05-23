@@ -1,8 +1,8 @@
 import { useState } from "react";
 import htmlQuestions from "../questions/htmlCss.json";
 import "../styles/python.css";
-import victoire from "../../public/logo/victoire.jpg";
 import defaite from "../../public/logo/defaite.webp";
+import victoire from "../../public/logo/victoire.jpg";
 
 const story = `Toby, un jeune castor curieux, rêve de découvrir les mystères du langage des machines. 
 Un jour, en explorant la vieille bibliothèque de la forêt, il tombe sur un livre poussiéreux, intitulé "Le Grimoire du Code". 

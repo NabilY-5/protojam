@@ -1,8 +1,8 @@
 import { useState } from "react";
 import reactQuestions from "../questions/reactjs.json";
 import "../styles/react.css";
-import victoire from "../../public/logo/victoire.jpg";
 import defaite from "../../public/logo/defaite.webp";
+import victoire from "../../public/logo/victoire.jpg";
 
 const ReactQuiz = () => {
   const [level, setLevel] = useState("");

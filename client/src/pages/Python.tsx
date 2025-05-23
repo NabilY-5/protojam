@@ -1,8 +1,8 @@
 import { useState } from "react";
 import pythonQuestions from "../questions/python.json";
 import "../styles/python.css";
-import victoire from "../../public/logo/victoire.jpg";
 import defaite from "../../public/logo/defaite.webp";
+import victoire from "../../public/logo/victoire.jpg";
 
 const PythonQuiz = () => {
   const [level, setLevel] = useState("");
